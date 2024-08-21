@@ -1,0 +1,50 @@
+.photo {
+  position: relative;
+  height: $photo-sizes;
+  width: $photo-sizes;
+  border-radius: 50%;
+  margin-bottom: 8px;
+
+  background-size: cover;
+  background-position: center;
+
+  &--floyd-may {
+    background-image: url(https://mate-academy.github.io/fe-program/css/tasks/athletes/people/Mayweather.jpg);
+  }
+
+  &--lionel-mes {
+    background-image: url(https://mate-academy.github.io/fe-program/css/tasks/athletes/people/Messi.jpg);
+  }
+
+  &--cristiano-r {
+    background-image: url(https://mate-academy.github.io/fe-program/css/tasks/athletes/people/Ronaldo.jpg);
+  }
+
+  &--conor-mcg {
+    background-image: url(https://mate-academy.github.io/fe-program/css/tasks/athletes/people/McGregor.jpg);
+  }
+
+  &--neymar {
+    background-image: url(https://mate-academy.github.io/fe-program/css/tasks/athletes/people/Neymar.jpg);
+  }
+
+  &--lebron-j {
+    background-image: url(https://mate-academy.github.io/fe-program/css/tasks/athletes/people/James.jpg);
+  }
+
+  &--roger-fed {
+    background-image: url(https://mate-academy.github.io/fe-program/css/tasks/athletes/people/Federer.jpg);
+  }
+
+  &--stephen-c {
+    background-image: url(https://mate-academy.github.io/fe-program/css/tasks/athletes/people/Curry.jpg);
+  }
+
+  &--matt-ryan {
+    background-image: url(https://mate-academy.github.io/fe-program/css/tasks/athletes/people/Ryan.jpg);
+  }
+
+  &--matthew-staff {
+    background-image: url(https://mate-academy.github.io/fe-program/css/tasks/athletes/people/Stafford.jpg);
+  }
+}

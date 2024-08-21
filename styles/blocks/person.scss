@@ -1,0 +1,29 @@
+.person {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  transition: transform 1s, border-radius 1s;
+
+  &__rank {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    height: $rank-sqr-sizes;
+    width: $rank-sqr-sizes;
+    border-radius: 50%;
+    position: absolute;
+    top: 84px;
+    left: 158px;
+    background-color: $rank-bcg-color;
+    color: $rank-color;
+  }
+
+  &:hover {
+    transform: scale(1.2);
+    background-color: $person-bcg-hover;
+    border-radius: 12px;
+  }
+}

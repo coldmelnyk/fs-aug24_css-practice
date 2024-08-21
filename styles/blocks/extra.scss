@@ -1,0 +1,11 @@
+.extra {
+  // position: absolute;
+  // bottom: 0px;
+  // display: none;
+
+  &__info {
+    font-size: 18px;
+    line-height: 20.7px;
+    color: $extra-info-color;
+  }
+}

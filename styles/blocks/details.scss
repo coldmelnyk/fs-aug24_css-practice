@@ -1,0 +1,13 @@
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__name {
+    font-size: 20px;
+    color: $name-color;
+    line-height: 23px;
+    margin-bottom: 9px;
+  }
+}
